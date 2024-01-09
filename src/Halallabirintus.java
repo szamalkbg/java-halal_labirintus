@@ -130,7 +130,7 @@ public class Halallabirintus extends javax.swing.JFrame {
         jPanel7 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
+        arany = new javax.swing.JLabel();
         Hatter = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -1305,8 +1305,8 @@ public class Halallabirintus extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel5.setText("Arany:");
 
-        jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
-        jLabel6.setText("0");
+        arany.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        arany.setText("0");
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -1318,7 +1318,7 @@ public class Halallabirintus extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 63, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 35, Short.MAX_VALUE)
-                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(arany, javax.swing.GroupLayout.PREFERRED_SIZE, 37, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
         jPanel7Layout.setVerticalGroup(
@@ -1327,7 +1327,7 @@ public class Halallabirintus extends javax.swing.JFrame {
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel5)
-                    .addComponent(jLabel6))
+                    .addComponent(arany))
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
@@ -1359,6 +1359,7 @@ public class Halallabirintus extends javax.swing.JFrame {
         
     private void gomb66_2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gomb66_2ActionPerformed
         Panel.setSelectedIndex(3);
+        arany.setText("2");
     }//GEN-LAST:event_gomb66_2ActionPerformed
 
     private void gomb293ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_gomb293ActionPerformed
@@ -1451,6 +1452,7 @@ public class Halallabirintus extends javax.swing.JFrame {
     private javax.swing.JButton StartButton;
     private javax.swing.JLabel Szerencse;
     private javax.swing.JLabel Sziv;
+    private javax.swing.JLabel arany;
     private javax.swing.JLabel eletero;
     private javax.swing.JLabel fkeredmeny;
     private javax.swing.JButton fkocka;
@@ -1479,7 +1481,6 @@ public class Halallabirintus extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
